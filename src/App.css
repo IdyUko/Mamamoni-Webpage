@@ -1,0 +1,64 @@
+
+.Header{
+  width: 100%;
+  height: 70px;
+  /* background-color: darkgoldenrod; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Headerwrap{
+  width: 80%;
+  height: 70px;
+  /* background-color: whitesmoke; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  width: 120px;
+  height:  50px;
+}
+.leftNav{
+  width: 20%;
+  /* background-color: aqua; */
+}
+.rightNav{
+  width: 70%;
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Hero{
+  width: 100%;
+  height: 80vh;
+  /* background-color: orangered; */
+  display: flex;
+}
+.lefthero{
+  width: 50%;
+  background-image: url(../public/women.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.righthero{
+  width: 50%;
+  background-color: rgb(58, 202, 58);
+}
+.texthold{
+  width: 50%;
+  height: 60%;
+  color: white;
+  margin-top: 100px;
+  margin-left: 50px;
+  /* background-color: antiquewhite; */
+}
+.button{
+  width: 100px;
+  border-radius: 3px;
+  height: 30px;color: white;
+  border: 1px solid white;
+  background-color: transparent;
+}
